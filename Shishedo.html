@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+  <title>BEAUTY BEAUTY Shishedo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="Style.css" rel="stylesheet"/>
+  <script src="beauty.js"></script>
+</head>
+
+<body>
+
+<div id="top">
+  <header>
+    <div id="companylogo"><img src="lip.png" alt="company logo" height="40px" onclick="welcomeAlert()">BEAUTYBEAUTY</div>
+    <div id="topLinks">
+      <a href="index.html">Home</a>
+      <a href="https://www.google.com/maps/search/sephora+hk/@22.2831866,114.1680357,16z/data=!3m1!4b1">Map</a>
+      <a href="mailto: 20022149d@connect.polyu.edu.hk">Email Us</a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScx_VF3jGetTIbIl3m04sP2ygtG0lep2QYdKOZy9qo50loNlg/viewform?vc=0&c=0&w=1&flr=0&usp=mail_form_link" title="Order">Order Here</a>
+    </div>
+  </header>
+  <section id="banner">
+    <p style="font-size:25px">Limited-Time Deal</p>
+    <h2 style="font-size:40px">BUY 1 GET 1</h2>
+    <p>FREE SHIPPING OVER $500</p>
+    <p>SHOP NOW</p>
+    <button id="lipstick" onclick="document.getElementById('myImage').src='before.png'">Remove lipstick</button>
+
+    <img id="myImage" src="before.png" style="width:170px">
+
+    <button id="lipstick" onclick="document.getElementById('myImage').src='after.png'">Put on lipstick</button>
+  </section>
+  <div id="productContent">
+    <section class="bar">
+      <div id="brandMenu">
+        <nav class="brand">
+          <h2>SKIN CARE </h2>
+          <hr>
+          <ul>
+            <li><a href="Kiehls.html" title="Link">Kiehl's</a></li>
+            <li><a href="EsteeLauder.html" title="Link">Estee Lauder</a></li>
+            <li><a href="Shishedo.html" title="Link">Shiseido</a></li>
+          </ul>
+        </nav>
+        <nav class="brand">
+          <h2>COSMETIC </h2>
+          <hr>
+          <ul>
+            <li><a href="MAC.html" title="Link">MAC</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <section class="Contents">
+
+      <div class="productRow">
+
+        <article class="cosmetic">
+          <div><img alt="sample" src="Shiseido1.png" height="200px" weight="200px"></div>
+          <p class="sellPrice">$860</p>
+          <p class="productName">Power Infusing Concentrate</p>
+          <input type="button" name="button" value="DETAILS" class="Buttonss" onclick="S1()">
+          <input type="button" name="button" value="BUY" class="Buttonss" onclick="buyfunction()">
+        </article>
+
+        <article class="cosmetic">
+          <div><img alt="sample" src="Shiseido2.jpg" height="200px" weight="200px"></div>
+          <p class="sellPrice">$680</p>
+          <p class="productName">White Revitalizing Softener Enriched</p>
+          <input type="button" name="button" value="DETAILS" class="Buttonss" onclick="S2()">
+          <input type="button" name="button" value="BUY" class="Buttonss" onclick="buyfunction()">
+        </article>
+
+        <article class="cosmetic">
+          <div><img alt="sample" src="Shiseido3.jpg" height="200px" weight="200px"></div>
+          <p class="sellPrice">$700</p>
+          <p class="productName">Revitalizing Treatment Softene</p>
+          <input type="button" name="button" value="DETAILS" class="Buttonss" onclick="S3()">
+          <input type="button" name="button" value="BUY" class="Buttonss" onclick="buyfunction()">
+        </article>
+      </div>
+      <div class="productRow">
+        <article class="cosmetic">
+          <div><img alt="sample" src="Shiseido4.jpg" height="200px" weight="200px"></div>
+          <p class="sellPrice">$2600</p>
+          <p class="productName">Total Regenerating Cream E</p>
+          <input type="button" name="button" value="DETAILS" class="Buttonss" onclick="S4()">
+          <input type="button" name="button" value="BUY" class="Buttonss" onclick="buyfunction()">
+        </article>
+
+        <article class="cosmetic">
+          <div><img alt="sample" src="Shiseido5.jpg" height="200px" weight="200px"></div>
+          <p class="sellPrice">$520</p>
+          <p class="productName">ULTIMUNE Power Infusing Concentrate </p>
+          <input type="button" name="button" value="DETAILS" class="Buttonss" onclick="S5()">
+          <input type="button" name="button" value="BUY" class="Buttonss" onclick="buyfunction()">
+        </article>
+
+        <article class="cosmetic">
+          <div><img alt="sample" src="Shiseido6.jpg" height="200px" weight="200px"></div>
+          <p class="sellPrice">$2200</p>
+          <p class="productName">Intensive Firming Contour Serum </p>
+          <input type="button" name="button" value="DETAILS" class="Buttonss" onclick="S6()">
+          <input type="button" name="button" value="BUY" class="Buttonss" onclick="buyfunction()">
+        </article>
+      </div>
+
+
+    </section>
+  </div>
+  <footer>
+    <div>
+      <p> &#128222;Contact Us: 2766 5111</p>
+    </div>
+    <div>
+      <p>&#174; BEAUTYBEAUTY HONG KONG</p>
+    </div>
+    <div class="footerlinks">
+      <a href="https://www.instagram.com/sephorahk/?hl=zh-hk"><p><img src="IG.png" width="25px">   Instagram</p></a>
+      <a href="https://www.facebook.com/sephorahongkong/"><p><img src="Facebook-logo.png" width="22px">Facebook</p></a>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
+
